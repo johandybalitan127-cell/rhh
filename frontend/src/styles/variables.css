@@ -1,0 +1,58 @@
+/* ==============================================================================
+   VARIABLES GLOBALES Y TEMA CORPORATIVO (LILAC / LAVENDER STITCH PALETTE)
+   ============================================================================== */
+
+:root {
+  /* Paleta Corporativa Lila & Lavanda */
+  --color-primary: #6C48A8;
+  --color-primary-light: #845EC2;
+  --color-secondary: #9E7CD0;
+  --color-accent: #BA9FDF;
+  --color-accent-light: #F3EEF9;
+
+  /* Colores de Estado Semántico */
+  --color-success: #10b981;
+  --color-success-bg: #ecfdf5;
+  --color-warning: #f59e0b;
+  --color-warning-bg: #fffbeb;
+  --color-danger: #ef4444;
+  --color-danger-bg: #fef2f2;
+  --color-info: #8B5CF6;
+  --color-info-bg: #FAF8FD;
+
+  /* Fondos y Neutros */
+  --bg-app: #F8F7FC;
+  --bg-card: #ffffff;
+  --bg-subtle: #FAF8FD;
+  --border-color: #E6DEEF;
+  --border-focus: #9E7CD0;
+
+  /* Textos */
+  --text-main: #251540;
+  --text-muted: #64748b;
+  --text-inverse: #ffffff;
+
+  /* Tipografía */
+  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  /* Sombras y Elevaciones */
+  --shadow-sm: 0 2px 6px -1px rgba(108, 72, 168, 0.06);
+  --shadow-md: 0 8px 24px -4px rgba(108, 72, 168, 0.1);
+  --shadow-lg: 0 16px 36px -6px rgba(84, 54, 133, 0.16);
+
+  /* Bordes Redondeados */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Transición Estándar */
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}

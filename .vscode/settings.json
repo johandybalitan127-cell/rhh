@@ -1,0 +1,7 @@
+{
+    "python.analysis.disabled": true,
+    "python.linting.enabled": false,
+    "files.exclude": {
+        "**/*.py": true
+    }
+}

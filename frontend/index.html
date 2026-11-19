@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="h-full bg-[#F8F7FC]" lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+  <title>TecnoCR Soluciones - Portal &amp; Chatbot RRHH</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet"/>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Marked.js para renderizar Markdown en el chatbot -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Tailwind Configuration -->
+  <script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          },
+          colors: {
+            lilac: {
+              50: '#FAF8FD',
+              100: '#F3EEF9',
+              200: '#E7DDF4',
+              300: '#D5C4EB',
+              400: '#BA9FDF',
+              500: '#9E7CD0',
+              600: '#845EC2',
+              700: '#6C48A8',
+              800: '#543685',
+              900: '#3D2562',
+              950: '#251540',
+            },
+            lavender: {
+              100: '#EDE9FE',
+              200: '#DDD6FE',
+              300: '#C4B5FD',
+              400: '#A78BFA',
+              500: '#8B5CF6',
+              600: '#7C3AED',
+            },
+            wisteria: {
+              100: '#F5F0FB',
+              200: '#E9DEFA',
+              300: '#D7C4F4',
+              400: '#BD9FEC',
+            },
+            cream: {
+              50: '#FBF9FE',
+              100: '#F3EFF8',
+              200: '#E6DEEF',
+            }
+          },
+          boxShadow: {
+            'soft': '0 8px 30px -4px rgba(108, 72, 168, 0.06), 0 2px 10px -2px rgba(108, 72, 168, 0.04)',
+            'card': '0 12px 36px -6px rgba(132, 94, 194, 0.12), 0 4px 12px -2px rgba(132, 94, 194, 0.06)',
+            'floating': '0 20px 40px -10px rgba(84, 54, 133, 0.16)',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Custom Micro-Styles -->
+  <style data-purpose="custom-scrollbars-and-glow">
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.90);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(230, 222, 239, 0.8);
+    }
+    .glow-lilac {
+      box-shadow: 0 0 28px -4px rgba(186, 159, 223, 0.45);
+    }
+  </style>
+</head>
+<body class="min-h-screen w-full text-slate-800 antialiased font-sans bg-[#F8F7FC] m-0 p-0">
+  <!-- Punto de montaje de React -->
+  <div id="root" class="min-h-screen w-full flex flex-col"></div>
+
+  <!-- Carga del bundle de React vía Vite -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

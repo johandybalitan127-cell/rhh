@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+.venv/
+**/node_modules/
+frontend/dist/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local data and generated indexes
+*.db
+backend/database/rrhh_costarica_db.json
+backend/database/chunks_index.json
+
+# Credentials and local logs
+backend/database/google_drive_tokens.json
+credentials.json
+*.log
